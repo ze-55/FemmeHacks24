@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background-color: rgba(244, 237, 229, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header-container {
+    background-color: rgba(188, 201, 155, 1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+.container {
+    background-color: #ead3ca;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.instruction-container {
+    margin-bottom: 10px; /* Add margin-bottom to create space between instruction and input */
+    text-align: left; /* Align the text to the left */
+    color:  rgba(188,201,155,1);
+    
+}
+
+#ingredients {
+    width: 100%;
+    height: 100px;
+}
+
+
+.instruction-container label {
+    font-size: 1.5em; /* Decrease the font size */
+    color:  black;
+}
+
+.navBackground {
+    width: 100%;
+    height: 100px;
+    background: rgba(232,176,175,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+
+.navText {
+    width: 240px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-family: Montserrat;
+    font-weight: Medium;
+    font-size: 40px;
+    opacity: 1;
+    text-align: center;
+  }  
+
+.input-container {
+    margin-bottom: 10px; /* Add margin-bottom to create space between input and button */
+    color:  rgba(232,176,175,1);
+}
+
+.label {
+    text-align: left;
+    color: black
+}
+
+#button1 {
+    background-color: #e8b0af;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0px 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+ 
+#button1:hover {
+    background-color: #e9699c;
+  }
+  
+#button1:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }  
+
+#result {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #BCC99B;
+}

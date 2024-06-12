@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="generatorpage.css">
+    <title>Recipe Finder</title>
+</head>
+<body>
+    <div class="navBackground"></div>
+		<span class="navText"><a href ="homepage.html">HOME</a></span>
+    <div class="header-container">
+        <h1>Recipe Finder</h1>
+    </div>
+    <div class="container">  
+        <div class="instruction-container">
+            <label for="ingredients">Enter ingredients:</label>
+        </div>
+        <div class="input-container">
+            <input type="text" id="ingredients" placeholder="e.g., chicken, rice, tomato">
+        </div>
+        <button id="button1" onclick="findRecipes()">Find Recipes</button>
+    </div>
+    <div id="result"></div>
+    <script src="scripts.js" id="resultsList"></script>
+</body>
+</html>
